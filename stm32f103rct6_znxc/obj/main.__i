@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../../bsp
+-I.\RTE\_stm32f103rct6_znxc
+-I"C:\Program Files (x86)\Local_Software\keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include"
+-I"C:\Program Files (x86)\Local_Software\keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include"
+-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE
+-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d "../Core/Src/main.c"

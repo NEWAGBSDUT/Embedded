@@ -1,0 +1,121 @@
+T0C74 000:145.317   SEGGER J-Link V7.22b Log File
+T0C74 000:145.448   DLL Compiled: Jun 17 2021 17:22:49
+T0C74 000:145.453   Logging started @ 2022-03-24 07:46
+T0C74 000:145.456 - 145.458ms
+T0C74 000:145.464 JLINK_SetWarnOutHandler(...)
+T0C74 000:145.469 - 0.006ms
+T0C74 000:145.474 JLINK_OpenEx(...)
+T0C74 000:150.052   TELNET listener socket opened on port 19021
+T0C74 000:150.213   WEBSRV Starting webserver
+T0C74 000:150.352   WEBSRV Webserver running on local port 19080
+T0C74 000:150.366 - 4.896ms returns "O.K."
+T0C74 000:150.389 JLINK_GetEmuCaps()
+T0C74 000:150.396 - 0.009ms returns 0x98E61B83
+T0C74 000:150.407 JLINK_TIF_GetAvailable(...)
+T0C74 000:150.413 - 0.008ms
+T0C74 000:150.421 JLINK_SetErrorOutHandler(...)
+T0C74 000:150.426 - 0.007ms
+T0C74 000:150.443 JLINK_ExecCommand("ProjectFile = "D:\PROJECT\project_stm32\stm32f103rct6_znxc\MDK-ARM\JLinkSettings.ini"", ...). 
+T0C74 000:162.036 - 11.610ms returns 0x00
+T0C74 000:162.084 JLINK_ExecCommand("Device = STM32F103RC", ...). 
+T0C74 000:162.493   Device "STM32F103RC" selected.
+T0C74 000:163.025 - 0.941ms returns 0x00
+T0C74 000:163.058 JLINK_GetHardwareVersion()
+T0C74 000:164.830 - 1.785ms returns 10000
+T0C74 000:164.850 JLINK_GetDLLVersion()
+T0C74 000:164.855 - 0.006ms returns 72202
+T0C74 000:164.859 JLINK_GetOEMString(...)
+T0C74 000:164.866 JLINK_GetFirmwareString(...)
+T0C74 000:164.871 - 0.007ms
+T0C74 000:164.883 JLINK_GetDLLVersion()
+T0C74 000:164.886 - 0.005ms returns 72202
+T0C74 000:164.891 JLINK_GetCompileDateTime()
+T0C74 000:164.894 - 0.005ms
+T0C74 000:164.901 JLINK_GetFirmwareString(...)
+T0C74 000:164.905 - 0.005ms
+T0C74 000:164.910 JLINK_GetHardwareVersion()
+T0C74 000:164.913 - 0.005ms returns 10000
+T0C74 000:164.919 JLINK_GetSN()
+T0C74 000:164.922 - 0.005ms returns 1043707692
+T0C74 000:164.927 JLINK_GetOEMString(...)
+T0C74 004:024.172 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T0C74 004:024.204   
+  ***** Error: 
+T0C74 004:024.210   Debugger tries to select target interface JTAG.
+This interface is not supported by the connected emulator.
+Selection will be ignored by the DLL.
+T0C74 004:024.215 - 0.045ms returns 0x01
+T0C74 004:024.227 JLINK_HasError()
+T0C74 004:024.238 JLINK_SetSpeed(5000)
+T0C74 004:024.244 - 0.008ms
+T0C74 004:024.597 JLINK_HasError()
+T0C74 004:024.612 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T0C74 004:024.617 - 0.007ms returns JLINKARM_RESET_TYPE_NORMAL
+T0C74 004:024.622 JLINK_Reset()
+T0C74 004:038.851   InitTarget() start
+T0C74 004:038.875    J-Link Script File: Executing InitTarget()
+T0C74 004:113.968   InitTarget() end
+T0C74 004:128.833   Found SW-DP with ID 0x1BA01477
+T0C74 004:137.857   Old FW that does not support reading DPIDR via DAP jobs
+T0C74 004:140.855   DPv0 detected
+T0C74 004:140.883   Scanning AP map to find all available APs
+T0C74 004:146.927   AP[1]: Stopped AP scan as end of AP map has been reached
+T0C74 004:146.965   AP[0]: AHB-AP (IDR: 0x14770011)
+T0C74 004:146.975   Iterating through AP map to find AHB-AP to use
+T0C74 004:152.822   AP[0]: Core found
+T0C74 004:152.847   AP[0]: AHB-AP ROM base: 0xE00FF000
+T0C74 004:155.870   CPUID register: 0x411FC231. Implementer code: 0x41 (ARM)
+T0C74 004:155.891   Found Cortex-M3 r1p1, Little endian.
+T0C74 004:259.895   -- Max. mem block: 0xFFFFFEFA
+T0C74 004:259.935    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C74 004:274.961    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C74 004:295.963    -- CPU_ReadMem(4 bytes @ 0xE0002000)
+T0C74 004:310.964   FPUnit: 6 code (BP) slots and 2 literal slots
+T0C74 004:310.990    -- CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T0C74 004:325.959    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C74 004:346.794    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C74 004:361.960    -- CPU_WriteMem(4 bytes @ 0xE0001000)
+T0C74 004:382.953    -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+T0C74 004:397.951    -- CPU_WriteMem(4 bytes @ 0xE000ED88)
+T0C74 004:418.970    -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+T0C74 004:433.819    -- CPU_WriteMem(4 bytes @ 0xE000ED88)
+T0C74 004:454.963   CoreSight components:
+T0C74 004:454.988   ROMTbl[0] @ E00FF000
+T0C74 004:455.044    -- CPU_ReadMem(64 bytes @ 0xE00FF000)
+T0C74 004:472.965    -- CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T0C74 004:487.963   ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 001BB000 SCS
+T0C74 004:487.989    -- CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T0C74 004:502.977   ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 001BB002 DWT
+T0C74 004:503.003    -- CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T0C74 004:517.973   ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 000BB003 FPB
+T0C74 004:518.000    -- CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T0C74 004:532.966   ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 001BB001 ITM
+T0C74 004:532.993    -- CPU_ReadMem(32 bytes @ 0xE0040FE0)
+T0C74 004:547.947   ROMTbl[0][4]: E0040000, CID: B105900D, PID: 001BB923 TPIU-Lite
+T0C74 004:547.974    -- CPU_ReadMem(32 bytes @ 0xE0041FE0)
+T0C74 004:562.965   ROMTbl[0][5]: E0041000, CID: B105900D, PID: 101BB924 ETM-M3
+T0C74 004:563.028   CPU is running
+T0C74 004:563.036    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C74 004:583.974   CPU is running
+T0C74 004:584.011    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C74 004:604.966   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T0C74 004:607.960   Reset: Reset device via AIRCR.SYSRESETREQ.
+T0C74 004:607.988   CPU is running
+T0C74 004:607.998    -- CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T0C74 004:685.192    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C74 004:699.974    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C74 004:714.954   CPU is running
+T0C74 004:714.981    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T0C74 004:735.983   CPU is running
+T0C74 004:736.009    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T0C74 004:763.007    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T0C74 004:840.821    -- CPU_WriteMem(4 bytes @ 0xE0002000)
+T0C74 004:861.802    -- CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T0C74 004:876.943    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+T0C74 004:891.969 - 867.367ms
+T0C74 004:892.002 JLINK_GetId()
+T0C74 004:894.951 - 2.969ms returns 0x1BA01477
+T0C74 004:898.960 JLINK_GetFirmwareString(...)
+T0C74 004:898.980 - 0.022ms
+T0C74 010:177.194 JLINK_Close()
+T0C74 010:181.795    -- CPU_ReadMem(4 bytes @ 0xE0001000)
